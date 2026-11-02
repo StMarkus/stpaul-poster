@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+# Unverschlüsselte Quelle – NIE veröffentlichen
+src/

@@ -1,0 +1,7 @@
+{
+  "name": "stpaul-poster-vendor",
+  "private": true,
+  "description": "Baut vendor.js (gifuct-js, gifenc, mp4-muxer) neu: npm install && npm run build",
+  "scripts": { "build": "esbuild entry.js --bundle --minify --format=iife --global-name=Vendor --outfile=../src/vendor.js" },
+  "devDependencies": { "esbuild": "^0.25.0", "gifenc": "1.0.3", "gifuct-js": "^2.1.2", "mp4-muxer": "5.2.2" }
+}
